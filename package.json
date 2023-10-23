@@ -1,0 +1,36 @@
+{
+  "name": "test-nearby-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "watch": "tsc -w",
+    "build": "tsc -p .",
+    "deploy": "npm install && npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/config": "0.0.36",
+    "@types/express": "^4.17.4",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg-promise": "^10.11.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^8.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinken44/test-nearby-games.git"
+  },
+  "author": "shinken",
+  "license": "ISC",
+  "homepage": "https://github.com/Shinken44/test-nearby-games#readme"
+}
