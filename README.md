@@ -1,7 +1,8 @@
 # test-nearby-games
 
 Set the DB server configuration and the existing DB name in ./config/default.json.
-ATTENTION: The 'users' table will be deleted after running the app.
+
+ATTENTION: The 'users' table will be cleared after running the app.
 
 npm run deploy
 
